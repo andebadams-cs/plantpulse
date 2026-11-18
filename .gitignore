@@ -19,4 +19,6 @@ backend.hcl
 certs/
 *.pem
 *.key
-.env.DS_Store
+.env
+
+.DS_Store
