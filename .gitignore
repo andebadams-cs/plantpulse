@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+build/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+backend.hcl
+*.auto.tfvars
+
+# Secrets: never commit these
+certs/
+*.pem
+*.key
+.env
